@@ -1,2 +1,334 @@
-# DEYEMI-HELPDESK-SERVICE-
-Deyemi Helpdesk Service provides reliable freelance customer support for businesses through email, live chat, WhatsApp, ticket management, complaint resolution, and CRM support.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deyemi Helpdesk Service | Customer Support</title>
+  <style>
+    :root {
+      --blue: #0b4f9c;
+      --dark-blue: #07366b;
+      --light-blue: #eaf4ff;
+      --text: #1f2937;
+      --white: #ffffff;
+      --gray: #f5f7fa;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: var(--text);
+      line-height: 1.6;
+      background: var(--white);
+    }
+
+    header {
+      background: var(--white);
+      padding: 18px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .logo {
+      color: var(--blue);
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--text);
+      margin-left: 20px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: var(--blue);
+    }
+
+    .hero {
+      background: linear-gradient(135deg, var(--dark-blue), var(--blue));
+      color: var(--white);
+      padding: 90px 7%;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 44px;
+      max-width: 800px;
+      margin: auto;
+      line-height: 1.2;
+    }
+
+    .hero p {
+      max-width: 680px;
+      margin: 20px auto 30px;
+      font-size: 18px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: var(--white);
+      color: var(--blue);
+      text-decoration: none;
+      font-weight: bold;
+      padding: 14px 24px;
+      border-radius: 6px;
+      margin: 5px;
+    }
+
+    .btn-outline {
+      border: 2px solid var(--white);
+      color: var(--white);
+      background: transparent;
+    }
+
+    section {
+      padding: 70px 7%;
+    }
+
+    .section-title {
+      color: var(--dark-blue);
+      text-align: center;
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
+
+    .section-intro {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 35px;
+    }
+
+    .services {
+      background: var(--gray);
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: var(--white);
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+      border-top: 4px solid var(--blue);
+    }
+
+    .card h3 {
+      color: var(--dark-blue);
+      margin-bottom: 10px;
+    }
+
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .about-box {
+      background: var(--light-blue);
+      padding: 30px;
+      border-radius: 8px;
+    }
+
+    .tools ul {
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 15px;
+      margin-top: 25px;
+    }
+
+    .tools li {
+      background: var(--light-blue);
+      padding: 15px;
+      text-align: center;
+      border-radius: 6px;
+      font-weight: bold;
+      color: var(--dark-blue);
+    }
+
+    .contact {
+      background: var(--dark-blue);
+      color: var(--white);
+      text-align: center;
+    }
+
+    .contact h2 {
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
+
+    .contact p {
+      margin: 10px 0;
+      font-size: 17px;
+    }
+
+    .contact a {
+      color: var(--white);
+    }
+
+    footer {
+      background: #04254b;
+      color: var(--white);
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 700px) {
+      header {
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      nav a {
+        margin: 0 8px;
+        font-size: 14px;
+      }
+
+      .hero h1 {
+        font-size: 32px;
+      }
+
+      .about {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">Deyemi Helpdesk Service</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <h1>Reliable Customer Support for Growing Businesses</h1>
+      <p>
+        I help businesses respond to customers quickly, resolve issues professionally,
+        and keep customer communication organized through email, chat, WhatsApp, and CRM tools.
+      </p>
+      <a class="btn" href="mailto:deyemidby6336@yahoo.com">Email Me</a>
+      <a class="btn btn-outline" href="https://wa.me/2348132748826">Chat on WhatsApp</a>
+    </section>
+
+    <section id="about">
+      <div class="about">
+        <div>
+          <h2 class="section-title" style="text-align:left;">About Me</h2>
+          <p>
+            I am a freelance Customer Service Representative with 5 years of experience
+            supporting customers and resolving enquiries professionally.
+          </p>
+          <br>
+          <p>
+            My background includes customer service in the insurance industry, where
+            accuracy, confidentiality, patience, and customer trust are essential.
+          </p>
+        </div>
+
+        <div class="about-box">
+          <h3>What You Can Expect</h3>
+          <p>✓ Clear and respectful communication</p>
+          <p>✓ Timely customer responses</p>
+          <p>✓ Organized ticket and inbox management</p>
+          <p>✓ Professional complaint resolution</p>
+          <p>✓ Accurate customer records</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2 class="section-title">Services I Provide</h2>
+      <p class="section-intro">
+        Flexible remote customer-support services for small businesses, online stores,
+        service providers, and growing companies.
+      </p>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Email Support</h3>
+          <p>Professional responses to customer enquiries, complaints, and requests.</p>
+        </div>
+
+        <div class="card">
+          <h3>Live Chat Support</h3>
+          <p>Fast and helpful real-time support for customers visiting your website.</p>
+        </div>
+
+        <div class="card">
+          <h3>WhatsApp Support</h3>
+          <p>Manage customer messages, follow-ups, updates, and frequently asked questions.</p>
+        </div>
+
+        <div class="card">
+          <h3>Ticket Management</h3>
+          <p>Organize, assign, update, and follow up on customer-support tickets.</p>
+        </div>
+
+        <div class="card">
+          <h3>Complaint Resolution</h3>
+          <p>Handle difficult customer situations calmly and work toward practical solutions.</p>
+        </div>
+
+        <div class="card">
+          <h3>CRM Data Entry</h3>
+          <p>Keep customer information and communication records accurate and organized.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="tools">
+      <h2 class="section-title">Tools & Skills</h2>
+      <p class="section-intro">
+        I use customer-support and business tools to keep communication smooth and organized.
+      </p>
+
+      <ul>
+        <li>Zendesk</li>
+        <li>Zoho CRM</li>
+        <li>Google Workspace</li>
+        <li>WhatsApp Business</li>
+        <li>Email Support</li>
+        <li>Customer Follow-up</li>
+      </ul>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Need Dependable Customer Support?</h2>
+      <p>Contact Deyemi Helpdesk Service today.</p>
+      <p><strong>Phone / WhatsApp:</strong> <a href="tel:+2348132748826">08132748826</a></p>
+      <p><strong>Email:</strong> <a href="mailto:deyemidby6336@yahoo.com">deyemidby6336@yahoo.com</a></p>
+      <br>
+      <a class="btn" href="https://wa.me/2348132748826">Send a WhatsApp Message</a>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Deyemi Helpdesk Service. All rights reserved.
+  </footer>
+</body>
+</html>
